@@ -1,0 +1,144 @@
+body {
+  background-color: rgb(0, 33, 71);
+}
+
+#B {
+  width: 65px;
+  height: auto;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  left: 750px;
+}
+
+p {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  left: 700px;
+  top: 200px;
+}
+
+#news {
+  width: 100px;
+  height: 450px;
+  background-color: rgb(1, 22, 114);
+  border: 3px solid rgb(186, 218, 255);
+  margin: auto;
+  position: absolute;
+  right: 35px;
+  bottom: 450px;
+}
+
+h2 {
+  color: white;
+  position: absolute;
+  right: 65px;
+  top: 40px;
+}
+
+#scrollText {
+  position: absolute;
+  top: 90px;
+  right: 7px;
+  transform: translateX(-50%);
+  color: white;
+}
+
+#Pc {
+  position: absolute;
+  bottom: 50px;
+  left: 750px;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(0, 0%, 21%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(0, 0%, 61%);
+  border-radius: 12px;
+}
+#B1 {
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  background-color:rgb(1, 22, 114);
+  border:2px solid rgb(3, 91, 192);
+  border-radius: 10px;
+  color: white;
+}
+#video1{
+  position: absolute;
+  top: 1400px;
+  left: 1500px;
+  z-index: 2;
+  border-radius: 20px;
+  border: 10px solid black;
+}
+#video2{
+  position: absolute;
+  top: 1100px;
+  left: 1500px;
+  z-index: 2;
+  border-radius: 20px;
+  border: 10px solid black;
+}
+
+#videos {
+  width: 400px;
+  height: 600px;
+  background-color: rgb(0, 89, 255);
+  border: 3px solid rgb(6, 66, 134);
+  border-radius: 20px;
+  margin: auto;
+  position: absolute;
+  top: 1070px;
+  right: 20px;
+  z-index: 1;
+  
+}
+#img{
+  position: absolute;
+  top: 1000px;
+  left: 400px;
+  height: 750px;
+  width: 600px;
+}
+#download{
+  width: 800px;
+  height: 300px;
+  background-color: rgb(1, 53, 148);
+  border: 3px solid rgb(0, 119, 255);
+  border-radius: 20px;
+  margin: auto;
+  position: absolute;
+  top: 2000px;
+  right: 550px;
+  z-index: 1;
+}
+h5{
+  z-index: 2;
+  position: absolute;
+  font-size: 50px;
+  top: 2030px;
+  left: 800px;
+  color: white;
+}
+#B2{
+  position: absolute;
+  top: 20px;
+  left: 220px;
+  background-color:rgb(1, 22, 114);
+  border:2px solid rgb(3, 91, 192);
+  border-radius: 10px;
+  color: white;
+}
